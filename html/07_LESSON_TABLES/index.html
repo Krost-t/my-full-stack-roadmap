@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Chris Matsanga" />
+    <meta
+      name="description"
+      content="La page contient les éléments de cours que j'apprend."
+    />
+    <title>My First Web Page</title>
+    <link rel="icon" href="img/5968267.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Goals for the Year</h1>
+
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learn HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <main>
+      <article id="html">
+        <h2>I'am Ready to Lean HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/html_logo_300x300.png"
+            alt="HTML5 Logo"
+            title="I am learnning HTML5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An Example of HTML code</figcaption>
+            <p>
+              <code>&lt;h1&lt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>... I learn more about web dev.</li>
+            <li>... I plan out my schedule.</li>
+            <li>
+              ... I use resources from
+              <abbr title="Mozzila Developer Network">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML "
+                  >MDN</a
+                ></abbr
+              >.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> I code per day
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3</time> hours every morning.
+              </p>
+            </details>
+          </aside>
+          <br>
+          <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+              <th scope="col">Time</th>
+              <th scope="col">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td  scope="row">Mornning</td>
+            <td>
+              <time datetime="08:00">8am</time>
+              <time datetime="11:00">11am</time>
+              <td>Write code</td>
+            </td>
+          </tr>
+            <tr>
+              <th scope="row">Break</th>
+              <td>
+                <time datetime="11:00">11am</time>
+                <time datetime="12:00">12pm</time>
+                <td>Eat Lunch</td>
+              </td>
+            </tr>
+            <tr>
+            
+              <th scope="row">Afternoon</th>
+              <td>
+                <time datetime="12:00">12pm</time>
+                <time datetime="17:00">5pm</time>
+                <td>Study for Other Corses</td>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Evening</th>
+              <td rowspan="3">All Other Times</td>
+              <td>Free Time</td>
+            </tr>
+            <tr>
+              <th scope="row">Night</th>
+              <td>Sleep</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">And that' what I do every day, 5 days a week. Hjust eat, sleep, code ..and recharge</td>
+            </tr>
+          </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="vacation">
+        <h2>Iam Also Planning a Vacation</h2>
+        <p>I've been working hard and really <em>need a getaway</em>.</p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so i want visit a beach</p>
+
+        <section>
+          <h3>Places I"d Like visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Carbbean</p>
+              <figure>
+                <img
+                  src="img/caribbean.jpg"
+                  alt="Carbbean Beach"
+                  title="I want to visit a caribbean beach."
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Caribbean Beach Getway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've heard good things about going here:</p>
+              <address>
+                Margaritaville Island Rever Riviera Cancun<br />
+                Bahia Petempich Puerto Morelos, Mexico <br />
+                Colonia Morelos, México 77580
+              </address>
+              <figure>
+                <img
+                  src="img/vacation.jpg"
+                  alt="Cancun vacation"
+                  title="It's 5 o'Clock Somewhere"
+                  width="400"
+                  height="267"
+                  loading="lazy"
+                />
+                <figcaption>A Carebbean Vacation Image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!-- TODO: Add more places -->
+        <section>
+          <h3>Places I"d Like Avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong></dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also</dd>
+
+            <dt>Mountai Tops</dt>
+            <dd>These are also cold</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copf;
+        <a href="about.html">Christ Matsanga</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
