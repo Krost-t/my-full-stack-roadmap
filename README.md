@@ -46,6 +46,3 @@ If you have suggestions or improvements, feel free to contact me or open an issu
 ## 📞 Contact
 
 For any questions or suggestions, you can contact me directly or visit my [GitHub profile](https://github.com/Krost-t).
-```
-
-Le titre principal utilise maintenant un emoji 🌱 pour symboliser la croissance et le développement personnel.
