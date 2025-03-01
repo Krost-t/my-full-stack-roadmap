@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chris Matsanga" />
+    <meta
+      name="description"
+      content="La page contient les éléments de cours que j'apprend."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Crash Corse</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="navbar">
+      <div class="container">
+        <a class="logo" href="#">Remeber<span>That</span></a>
+
+        <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation"
+        width="19" height="13">
+
+        <nav>
+          <img  id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="close navigation" height="21" width="21">
+
+          <ul class="primary-nav">
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+
+          <ul class="secondary-nav">
+            <li><a href="#">Contact</a></li>
+            <li class="go-prenium-cta"><a href="#">Go Prenium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+      <section class="hero">
+        <div class="container">
+          <div class="left-col">
+            <p class="subhead">It's Nitty &amp; Gritty</p>
+            <h1>A Task App That Doesn"t Stink</h1>
+
+            <div class="hero-cta">
+              <a href="#" class="primary-cta">Try for free</a>
+              <a href="#" class="watch-video-cta">
+                <img src="img/watch.svg" alt="Watch a video" width="27" height="18">
+                Watch a video
+              </a>
+            </div>
+          </div>
+        </div>
+        <img src="img/illustration.svg" alt="ilustration" class="hero-img" width="411" height="402">
+      </section>
+
+    <section class="features-section">
+      <div class="container">
+        <ul class="features-list">
+          <li>Unlimited Task</li>
+          <li>SMS Task Reminders</li>
+          <li>Confetti Explosions upon Task Completions</li>
+          <li>Social Media Announcements</li>
+          <li>Real Time collaboration</li>
+          <li>Other awesome features</li>
+        </ul>
+
+        <img src="img/holding-phone.jpg" alt="Man holding phone" width="621" height="522">
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="img/person.jpg" alt="Person">
+
+            <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id iusto eveniet quaerat illo facere! Aperiam velit quae amet id eveniet officiis sit repudiandae voluptate incidunt explicabo, vel iste excepturi."</blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="img/person.jpg" alt="Person">
+
+            <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id iusto eveniet quaerat illo facere! Aperiam velit quae amet id eveniet officiis sit repudiandae voluptate incidunt explicabo, vel iste excepturi."</blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="img/person.jpg" alt="Person">
+
+            <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id iusto eveniet quaerat illo facere! Aperiam velit quae amet id eveniet officiis sit repudiandae voluptate incidunt explicabo, vel iste excepturi."</blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-lef">
+          <h2>Contact</h2>
+
+          <form action="" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+
+            <label for="message">Message</label>
+            <textarea name="messafe" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+
+            <input type="submit" class="send-message-cta" value="Send message">
+          </form>
+        </div>
+        <div class="contact-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81447.78658052195!2d3.4317969403878017!3d50.362017041420216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2edc768b409b3%3A0xb5f4dcec0bfdf494!2s59300%20Valenciennes!5e0!3m2!1sfr!2sfr!4v1740055686015!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+      mobileBtn.addEventListener('click',() =>{
+        nav.classList.add('menu-btn');
+      })
+
+      
+      mobileBtnExit.addEventListener('click',() =>{
+        nav.classList.remove('menu-btn');
+      })
+    </script>
+  
+</body>
+</html>
