@@ -42,8 +42,7 @@ Full stack development involves mastering both the front-end and back-end aspect
 - [CSS]()
 - [scss]()
 - [Tailwind Css]()
-- [Tailwind Css]()
-- [React]()
+- [React](https://github.com/Krost-t/learning-react)
 - [React Native]()
 
 ## 📂 Backend Courses
