@@ -49,7 +49,7 @@ Full stack development involves mastering both the front-end and back-end aspect
 
 - [Java]()
 - [Php]()
-- [Symfony]()
+- [Symfony](https://github.com/Krost-t/learning-symfony)
 - [Node]()
 
 ## 📂 Database Courses
